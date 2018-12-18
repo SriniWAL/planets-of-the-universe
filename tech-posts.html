@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<h1>All News</h1>
+<h1>Technology Posts</h1>
 
 <ul>
-	{% for newsposts in site.posts %}
+	{% for newsposts in site.categories.tech limit: 2 %}
 	<li>
 		<a href="{{newsposts.source}}" target="_blank">{{newsposts.title}}</a>
 		<p>{{newsposts.meta}}</p>

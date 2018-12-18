@@ -16,7 +16,7 @@ ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 240px;
+  width: 400px;
   background-color: #f1f1f1;
   border: 1px solid #555;
 }
@@ -53,7 +53,7 @@ ul.nav li a:hover:not(.current) {
 /* NAV Bottom styles */
 ul.nav-bottom {
   background: none;
-  width: 150px;
+  width: 250px;
 }
 ul.nav-bottom li a.current  {
   background: none;
